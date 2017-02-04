@@ -4,16 +4,16 @@ using System.Collections;
 public class NewBehaviourScript : MonoBehaviour {
   
   
-  // Comment : Define int for a integer and a whole number.
-  // Comment : The declaration of the type as a int and the nameOfVariable as a myInt. 
-  // Comment : The Initialisation of the value as a number. 
-  // Comment : {} is the opening and closing.
-  // Comment : void Start is when the object and a script is attached to enters a scence.
-  // Comment : The Function of the FunctionName as a MultiplyByNumber and (Type parameterName) as a int number. 
-  // Comment : ret = number * 2;, it has been equal to the number variable.
-  // Comment : return ret is a return comment that runs this function that is outputs the value of ret. 
-  // Comment : = for equal.
-  // Comment : Remainder for dividing I think. 
+  // Define int for a integer and a whole number.
+  // The declaration of the type as a int and the nameOfVariable as a myInt. 
+  // The Initialisation of the value as a number. 
+  // {} is the opening and closing.
+  // void Start is when the object and a script is attached to enters a scence.
+  // The Function of the FunctionName as a MultiplyByNumber and (Type parameterName) as a int number. 
+  // ret = number * 2;, it has been equal to the number variable.
+  // return ret is a return comment that runs this function that is outputs the value of ret. 
+  // = for equal.
+  // Remainder for dividing I think. 
   {
     public int addition = 12 + 4;// Addition to 4
      }
