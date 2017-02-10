@@ -1,0 +1,42 @@
+using UnityEngine;
+using System.Collections;
+
+public class switching : MonoBehaviour {
+
+
+    public string color;
+    public enum Colors {RED, GREEN, BLUE};
+  
+    public enum GameStates
+    {
+        LOADING,
+        STARTING,
+        PLAYING,
+        ENDING,
+    }
+
+    public GameStates currentGameState = GameStates.LOADING;
+
+	// Use this for initialization
+	void Start () {
+        
+        switch (color)
+        {
+            //"GREEN" or Colors.GREEN can be used for
+            case Colors.GREEN:
+                print("Green");
+                break;
+            //"RED" or Colors.RED can be used for 
+            case Colors.RED:
+                print("Red");
+                break;
+            //"Blue" or Colors.BLUE can be used for
+            case Colors.BLUE:
+                print("Blue");
+                break;
+
+            default:
+                print(color);
+                break;
+        }
+	}
