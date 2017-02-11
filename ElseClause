@@ -25,6 +25,117 @@ public class ElseClause : MonoBehaviour {
 		{
 			print("Incorrect");// The example of if print(false) about defaulting to false.
                          
-		}     
+		}    
+		
+  // The middle in between the opening and closing is print("Correct");. And print("Incorrect") as well. 
+  // else is an opposite. 
+  // The password when someone type it's own, if it's correct but if happened to have an error which is incorrect. 
+		
+		if(password == "BBO23")
+		{
+			print("Correct");// if(password == "UpperLetter and Number") is basing on correct. 
+	        }
+		else
+		{
+			print("Incorrect");// if(password == "UpperLetter and Number") is basing on incorrect. 
+		}
+		if(password == "UpCat")
+		{
+			print("correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "HAD90")
+		{	
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "NOT90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "Mr.90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("InCorrect");
+		}
+		if(password == "BEL90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "HAP45")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "YES90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "NOP23")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "UPO21")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "VAN90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "UPO90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect";
+		}
+		if(password == "NOU90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		
 	}
+					
 }
