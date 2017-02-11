@@ -33,11 +33,11 @@ public class ElseClause : MonoBehaviour {
 		
 		if(password == "BBO23")
 		{
-			print("Correct");// if(password == "UpperLetter and Number") is basing on correct. 
+			print("Correct");// if(password == "Upper letter and number") is basing on correct. 
 	        }
 		else
 		{
-			print("Incorrect");// if(password == "UpperLetter and Number") is basing on incorrect. 
+			print("Incorrect");// if(password == "Upper letter and number") is basing on incorrect. 
 		}
 		if(password == "UpCat")
 		{
