@@ -1,0 +1,57 @@
+What If Loops Statements
+
+using Unity Engine;
+using System.Collections;
+
+public class WhileLoops : MonoBehaviour {
+	int i = 0;
+	public string[] colors;//colors behind the public string
+
+	// Use this for initialization
+	void Start () {
+		//Set i equal to example 0 or numbers to run a fuction
+		//While loops are like other statments.  
+		// The while (i<10) or while (i< colors.Length) can be used for. 
+		//The length is a parameter and an array. 
+
+		while (i< colors.Length)
+		{
+			
+			print(colors[i]);
+			i++;	
+		}
+
+		print(colors[0]);// To the print the colors.
+		print(colors[1]);//The example Of (i<10), the 10 as the elements to be setted numbers are meaning of the colors.
+		print(colors[2]);
+		print(colors[3]);
+		print(colors[4]);
+		print(colors[5]);
+		print(colors[6]);
+		print(colors[7]);
+		print(colors[8]);
+		print(colors[9]);
+		
+		
+
+		print("Done")
+
+		i = 0;
+		while (i<animals.Length)
+		{
+
+		print(animals[i]);
+		i ++;
+		}
+
+		i =0;
+		while (i<candies.Length)
+		{
+		print(candies[i]);
+		i ++;
+		}
+		
+
+	
+	}
+}
