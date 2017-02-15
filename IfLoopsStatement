@@ -1,4 +1,4 @@
-What If Loops Statements
+If Loops Statements
 
 using Unity Engine;
 using System.Collections;
@@ -31,11 +31,11 @@ public class WhileLoops : MonoBehaviour {
 		print(colors[7]);
 		print(colors[8]);
 		print(colors[9]);
+		print(colors[10];
 		
-		
-
 		print("Done")
-
+		
+		// You can put an any kind of name in between the (i< and .Length)
 		i = 0;
 		while (i<animals.Length)
 		{
@@ -43,7 +43,7 @@ public class WhileLoops : MonoBehaviour {
 		print(animals[i]);
 		i ++;
 		}
-
+		
 		i =0;
 		while (i<candies.Length)
 		{
@@ -51,7 +51,81 @@ public class WhileLoops : MonoBehaviour {
 		i ++;
 		}
 		
-
-	
+		i = 0;
+		while(i<GoodNews.Length)
+		{
+		print(GoodNews[i]);
+		i++;
+		}
+		
+		i = 0;
+		while (i<Bugs.Length)
+		{
+		print(Bugs[i]);
+		i++;
+		}
+		
+		i = 0;
+		while(i<Weather.Length)
+		{
+		print(Weather[i]);
+		i++;
+		}
+		
+		i = 0;
+		while(i<kids.Length)
+		{
+		print(kids[i]);
+		i++;
+		}
+		
+		i = 0;
+		while(i<jumpingman.Length)
+		{
+		print(jumpingman[i]);
+		i++;
+		}
+		
+		i = 0;
+		while(i<pinkfrogs.Length)
+		{
+		print(pinkfrogs[i]);
+		i++;
+		}
+		
+		i = 0;
+		while(i<sour.Length)
+		{
+		print(sour[i]);
+		i++;
+		}
+		
+		i = 0;
+		while(i<sweet.Length)
+		{
+		print(sweet[i]);
+		i++;
+		}
+		
+		i = 0;
+		while(i<shoes.Length)
+		{
+		print(shoes[i]);
+		i++;
+		}
+		
+		i = 0;
+		while(i<Mr.Trick.Length)
+		{
+		print(Mr.Trick[i]);
+		i++;
+		}
+		
+		i = 0;
+		while(i<SlyFox.Length)
+		{
+		print(SlyFox[i])
+		i++;
+		}
 	}
 }
