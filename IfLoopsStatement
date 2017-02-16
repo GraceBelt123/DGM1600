@@ -4,8 +4,9 @@ using Unity Engine;
 using System.Collections;
 
 public class WhileLoops : MonoBehaviour {
-	int i = 0;
-	public string[] colors;//colors behind the public string
+	int i = 0; 		// public class is called a class, program and is a construct inside which things happen.
+	public string[] colors;//public string is the return.
+			       
 
 	// Use this for initialization
 	void Start () {
@@ -13,12 +14,12 @@ public class WhileLoops : MonoBehaviour {
 		//While loops are like other statments.  
 		// The while (i<10) or while (i< colors.Length) can be used for. 
 		//The length is a parameter and an array. 
-
-		while (i< colors.Length)
+		//while loops executes the content of the loops and checks the condition before executing the content.  
+		while (i< colors.Length) 
 		{
 			
 			print(colors[i]);
-			i++;	
+			i++;// i++ is the return of the original value and then increments by one. 
 		}
 
 		print(colors[0]);// To the print the colors.
