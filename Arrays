@@ -2,7 +2,7 @@
 // The how many numbers integers, example 2 integers would be myIntA and myIntB. 
 // To start with int and then declaring a individual variable as the [].
 // The type is the variable as the int.
-// And the nameOfArrays, example myInt to start with the first letter need to be lowercase and the first letter Of Int need to be uppercase.
+// And the nameOfArrays, example myInt to start with the first letter need to be lowercase and the first letter of Int need to be uppercase.
 // The right standing is next to = is the length, the given a name and the type of arrays. 
 // After the sentence, the given a name is standing by the [], the [] inside is a number of elements. 
 // To begin with, underneath the opening, the nameOfArrays[] and the inside of [] is index of a element and a integer.
