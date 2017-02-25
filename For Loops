@@ -4,16 +4,24 @@ using System.Collection.Generic;
 
 public class ForLoops ; MonoBehaviour {
 
-//Iterator is used for counts, and the number at zero. 
-//Iterator as the int. 
-//Loop is the comparison.
-//The Length is underlinea, and is determined by a date. 
-//If you didn't save it or drag it to an object, if nothing else to determined the cars that did nothing. 
-//Loops runs a function. 
-//<Length or <cars can be used for dot
+// Iterator is used for counts, and the number at zero. 
+// Iterator as the int. 
+// Loop is the comparison.
+// The Length is underlined, and is determined by a date. 
+// If you didn't save it or drag it to an object, if nothing else to determine the cars that did nothing. 
+// Loops run a function. 
+// <Length or <cars can be used for dot I think. 
+// Creating the types for each loop. And each of the loops is a script that has been attached to an object
+in the scene. 
+// i++; as an optional section for runs a iteration and a semicolon. 
+
 
 	public List<string> cars;
 	public List<string> cats;
+	public List<string> axes;
+	public List<string> foxes;
+	public List<string> wheels;
+	public List<string> paints;
 
 		//Use this for initialization
 	
@@ -21,32 +29,33 @@ public class ForLoops ; MonoBehaviour {
 
 		for (Init i = 0; i < cars.Count; i++)
 		{
-			print(cars[i];
+			print(cars[i]);//I think it needs to be "print" with both (), not ( without it. If it said false, then 
+					 it will be print(cars[i]; without ). A correct way or not. 
 		}
 
 		for (Init i = 0; i < cats.Count; i++)
 		{
-			print(Red Car[i];
+			print(cats[i]);
 		}
 
-		for (Init i = 0; i <Blue Car; i++)
+		for (Init i = 0; i <axes.Count; i++)
 		{
-			print (Blue Car[i];
+			print (axes[i]);
 		}
 		
-		for (Init i = 0; i <Yellow Car; i++)
+		for (Init i = 0; i <foxes.Count; i++)
 		{
-			print(Yellow Car[i];
+			print(foxes[i]);
 		}
 	
-		for (Init i = 0; i <Black Car; i++)
+		for (Init i = 0; i <wheels.Count; i++)
 		{
-			print(Black Car; i++)
+			print(wheels[i]);
 		}
 	
-		for (Init i = 0; i <Brown Car; i++)
+		for (Init i = 0; i <paints.Count; i++)
 		{
-			print(Brown Car[i];
+			print(paints[i]);
 		}
 	}
 }
