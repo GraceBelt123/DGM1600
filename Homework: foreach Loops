@@ -12,11 +12,21 @@ public class ForeachLoops : MonoBehavior {
     public string[] heels;
     public string[] wormbooks;
     
+    //item is an identifier and a variable name and a keywork, meaning the variable type.
+    //The collection is an identifier that doesn't even exist. So it has been replaced with an item that does exist. 
+    //The datatype needs to be the same datatype, such as gameobject. 
+    //The number of the items in the list that are zero from what he talked about in the class. 
+    //When you add again object that is called referencing. 
+    //At least it's not a start function. Its a void check data. 
+    //Infinite loop is a list of instruction, no, it's more like sequence and an order. 
+    //Busy wait can be called Infinite loop. 
 
     //Use this for initialization
     void Start() {
-
-        foreach (string objectsInObjects in objects) {
+        //objectsInObjects is the item. 
+        //If the item is equal to an item in the list, then the loop will check it for print what you want to print. 
+       
+       foreach (string objectsInObjects in objects) {
                 if (objects == objectsInObjects)
                 {
                      print("I have a match, it is" + objectsInObjects);
@@ -61,5 +71,65 @@ public class ForeachLoops : MonoBehavior {
                 {
                      print(item);
                 }
+        foreach (string item in favorites) {
+                if (item == "lipsticks")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "shirts")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "blacks")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "Reds")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "Blues")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "Foxes")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "Yellows")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "Hamsters") 
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "Wolfs")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "littles")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "weapons")
+                {
+                    print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "axes")
+                {
+                    print(item);
+                }           
        }
 }
