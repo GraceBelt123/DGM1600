@@ -1,0 +1,65 @@
+using UnityEngine;
+using System.Collections;
+
+public class ForeachLoops : MonoBehavior {
+
+    public string[] objects;
+    public string[] books;
+    public string[] cats;
+    public string[] shoes;
+    public string[] notebooks;
+    public string[] dogs;
+    public string[] heels;
+    public string[] wormbooks;
+    
+
+    //Use this for initialization
+    void Start() {
+
+        foreach (string objectsInObjects in objects) {
+                if (objects == objectsInObjects)
+                {
+                     print("I have a match, it is" + objectsInObjects);
+                }
+                else
+                {
+                print(objectsInObjects + "is not a match");
+                }
+
+        foreach (string item in favorites) {
+                if (item == "books")
+                {
+                     print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "cats")
+                {
+                     print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "shoes")
+                {
+                     print(item);
+                }
+        foreach (string item in favorites) { 
+                if (item == "notebooks")
+                {
+                     print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "dogs")
+                {
+                     print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "heels")
+                {
+                     print(item);
+                }
+        foreach (string item in favorites) {
+                if (item == "wormbooks")
+                {
+                     print(item);
+                }
+       }
+}
