@@ -1,0 +1,49 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class Buttons : MonoBehaviour {
+    //Function is Buttons or ButtonCLick.
+    public List<string> animals;
+    
+    void Start ()
+    {
+        animals.Add("Dog");
+        animals.Add("Cat");
+        animals.Add("Frog");
+        animals.Add("Hamster");
+        animals.Add("Lizard");
+        animals.Add("Kitty");
+        animals.Add("Fish");
+        animals.Add("Shrimp");
+        animals.Add("Cow");
+        animals.Add("Duck");
+        animals.Add("Goose");
+        animals.Add("Mice");
+        animals.Add("Rat");
+        animals.Add("Horse");
+        animals.Add("Goat");
+        animals.Add("Pig");
+        animals.Add("Monkey");
+        animals.Add("Rabbit");
+        animals.Add("Rooster");
+        animals.Add("Swan");
+        animals.Add("Ox");
+        animals.Add("Hawk");
+        animals.Add("Eagle");
+        animals.Add("Chicken");
+        animals.Add("Boar");
+        animals.Add("Snake");
+
+    }
+
+    public void ButtonClick()
+    {
+        foreach (string item in animals)
+        {
+            print(item);
+        }
+        
+    }
+
+}
