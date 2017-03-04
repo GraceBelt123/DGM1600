@@ -2,6 +2,17 @@ using UnityEngine;
 using System.Collections;
 
 public class LogicalOperators : MonoBehaviour {
+//The three logical operators are ||, ! and &&.
+//The one of logical operators is double-ampersand operator, and the two combined are conditions being met, if it's testing true or 
+false. 
+//If one or another statment can be true, either or can be true that if it's both false. The statement is false. 
+//If string1 or string2 is equal to Thing 1 or 2, then there's a space. 
+//IF the next statement a logicalOperators, meaning string 1 or two. 
+//&& is and. 
+//== is equal.
+// || is non-zero and a condition. 
+//!= is false I think. 
+//public string string1; or string2; is attached to string1 or string2 == "Thing 1" or "Thing 2."
 
     // Use this for initialization
     void Start() { }
@@ -12,7 +23,7 @@ public class LogicalOperators : MonoBehaviour {
     //Use this for initialization
     public void OnButtonClick()
     {
-        if (string1 == "Thing 1" && string2 == "Thing 2") //If string1 is not equal to thing 1, and if string 2 is not equal to thing 2. 
+        if (string1 == "Thing 1" && string2 == "Thing 2") 
         {
             print("These things are quiet time.");
 
