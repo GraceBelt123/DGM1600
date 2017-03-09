@@ -1,0 +1,62 @@
+using UnityEngine;
+using System.Collections;
+
+public class Scope : MonoBehaviour {
+    	//iphone is owner's and named "Joe" or others a give of names. 
+   	//The two functions are void Awake and void Start, which is built in Unity. They exist in Unity and part of MonoBehavior.
+	//Both Functions can be used and are called userName.
+	//A local variable is underlining. If the userName is underlined, then is not called a variable. It’s called a field. 
+	//If notice it says in the Scope Script; string and the userName. Meaning, it’s accessible because it’s a class member. 
+	//The local variable and the difference is Awake which can only see myName or userName or whatever that is. The myName is hidden from the start because it’s inside of an object which cannot be seen by other object. And that’s what scope is; local.
+	//The string is private. And it can only be seen by Awake. Only Awake can access it. 
+	//You go in start and try to print myName or whatever that is which has been noticed that it’s not a code. It gives underline and does not exist in start I think and that can only exists inside of Awake. 
+	//If it’s doesn’t exist, then if I were to click the button by giving me the options that it says if a variable could work which is telling me to make a private variable outside of Start. 
+	//Private is restricted and will not be seen by other object or whatever that is. String is attached to something, for example to make like I’ve done it in the List Script.
+Public is exist and can be seen by objects or whatever that is. 
+
+    public string owner = "Bob";
+    
+    
+	// Use this for initialization
+	public void Awake () {
+        
+        string iphone = "Joe";
+        print(iphone);
+        print(owner);
+
+    }
+	
+	// Update is called once per frame
+	void Start () {
+        string ipad = "Frank";
+        print(ipad);
+        print(owner);
+
+    }
+}
+
+
+
+//Another Script of Access
+
+using UnityEngine;
+using System.Collections;
+
+public class Access : MonoBehaviour {
+	//public Scope home is attached to Scope Script. 
+	//To create a new class and is called Access; the script. Inside of Access to create a public variable that is called Scope. Like above this sentence for example. 
+	//If print(home.renter); is underlined, cause it can’t see and can’t access the renter because the renter is restricted private. 
+	//If the functions are private and can be used by class.
+  //if public void Start which can be seen in the whole script except some is private. 
+	
+
+    public Scope home;
+
+	// Use this for initialization
+	void Start () {
+        print(home.owner);
+        //if print(home.Awake());
+        home.Awake();
+    }
+		
+}
