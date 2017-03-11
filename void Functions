@@ -1,0 +1,40 @@
+using UnityEngine;
+using System.Collections;
+
+public class VoidFunctions : MonoBehaviour {
+//The special function, we can create that can give us all kinds of instructions. For example, to give a weather report or to print out the grades of everyone in the class. 
+//If using the calculator, can have the function that add numbers together. So anytime, I want to add something that I can go back to the function again. 
+//When we are doing void functions. It’s means, it runs a set of commands. It runs instructions.
+//void function is a set of instructions that requires no input and gives no output. Moreover, Update and Start function are void functions. 
+//I can create the function and create a new variable in this function. And give a name whatever that is. The function is the parent and like I’ve done in scope script. 
+//In order to create a script, will have a public variable on the script that means, creating two buttons in the scene to connect to the variable. 
+//Here’s the example of function what to do to implement it. If I describe the temperature , first, will have a formula. Second, to take a temperature.
+//If the temperature is defined as an integer, it won’t give decimal numbers. 
+//Sum is Add. 
+//Using parentheses for order of operations, print it out.
+    int num1 = 5;
+    int num2 = 3;
+    public int temp = 8;
+   
+
+    // Use this for initialization
+    public void AddNumbers() {
+        int sum;
+        sum = num1 + num2;
+        print(sum);
+    }
+
+    public void ConvertFtoC()
+    {
+       float newtemp = (temp - 32) * 5 / 9;//Subtracting 32, dividing by 9, multiplying by 5. The measurement of 5/9, and temperature a degree is 32. 
+        print(newtemp);
+
+    }
+
+    public void ConvertFtocC()
+    {
+        float newtemp = (temp * 9 / 5) + 32;
+        print(newtemp);
+    }
+
+}
