@@ -2,6 +2,16 @@ using UnityEngine;
 using System.Collections;
 
 public class FunctionsWithReturn : MonoBehaviour {
+// A return function allows you to return what you've created inside your function.
+// The function is at the end of your block and code. And you end it with the statement "return."
+// If you adding two float values, you end up with another float value. 
+// To create a script called "Return Function." For example, to create a function that will add together two numbers as its parameters. Then return the sum of those values. 
+// Function can be called "sum" as you see in this script.
+// Two numbers as inputs (num1, num2) in this script I think. 
+// To perceive the function name by datatype that it will return. 
+ 
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -13,18 +23,18 @@ public class FunctionsWithReturn : MonoBehaviour {
     float Sum(float num1, float num2)
     {
         float sum;
-        sum = num1 + num2;
+        sum = num1 + num2;// To add a value yet not have added a value to return. Other option to add this return statement at the end of my code, and another to create a variable, the sum, that will hold the data to add together.
         return sum;
     }
 
    float Average(float[] scores)
     {
         float sum = 0;
-        float average;
+        float average;// To get average, divide by the amount of elements in the array. 
 
         foreach(float score in scores)
         {
-            sum += score;
+            sum += score;// If you add sum to this value, each time you step through the array, you'll say "sum +=." Like I've done in math operators, and the two statements are exactly the same. 
             sum = sum + score;
         }
 
