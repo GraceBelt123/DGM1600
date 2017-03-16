@@ -7,18 +7,18 @@ public class FunctionsWithParemeter : MonoBehaviour {
 // If statement is public which can be seen by other classes because its access modifier is public. 
 // If there's a parameter that resides in a function, that parameter is local to that function. 
 // This int _h is local to this function and is used to calculate things. If you were to say our health, which is public that is +=, will be however much h to health I think.
-// 
-//
-//
-//
-//
+// First, to make a public function. Second, To type this as void. Third, the parameters within called "AddHealth." Fourth, the parentheses with opening and close curly braces.
+// Replacing it with these two values, the parameters are to perform whatever local things the function needs. 
+// For example, "Print" is a function that accepts parameters. 
+// If you want to update, is a parameter that the class can see. If it's public or other option. 
+// UI is a class and reference type yet it's made by Unity. 
 
 
     public int health = 100;
 
     void Start()
     {
-        AddHealth(50);//First, to make a public function. Second 
+        AddHealth(50);// A little code hint when you put parentheses, code hint said, "This is a function and parameter."
         print(health);
         AddHealth(25);
         print(health);
