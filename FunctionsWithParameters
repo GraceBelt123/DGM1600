@@ -3,12 +3,22 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class FunctionsWithParemeter : MonoBehaviour {
+// Parameter is technically a variable, sometime, can be called a field
+// If statement is public which can be seen by other classes because its access modifier is public. 
+// If there's a parameter that resides in a function, that parameter is local to that function. 
+// This int _h is local to this function and is used to calculate things. If you were to say our health, which is public that is +=, will be however much h to health I think.
+// 
+//
+//
+//
+//
+
 
     public int health = 100;
 
     void Start()
     {
-        AddHealth(50);
+        AddHealth(50);//First, to make a public function. Second 
         print(health);
         AddHealth(25);
         print(health);
